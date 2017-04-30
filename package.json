@@ -1,0 +1,19 @@
+{
+  "name": "dufu",
+  "version": "1.0.0",
+  "description": "A tool for creating and developing GIS web apps.",
+  "bin": {
+    "dufu": "app"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donny",
+  "license": "ISC",
+  "dependencies": {
+    "nodegit": "^0.18.3",
+    "shelljs": "^0.7.7",
+    "yargs": "^7.1.0"
+  }
+}
