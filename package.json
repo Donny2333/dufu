@@ -1,9 +1,9 @@
 {
   "name": "dufu",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A tool for creating and developing GIS web apps.",
   "bin": {
-    "dufu": "app.js"
+    "dufu": "app"
   },
   "main": "app.js",
   "scripts": {
