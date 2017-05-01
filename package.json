@@ -12,7 +12,6 @@
   "author": "Donny",
   "license": "ISC",
   "dependencies": {
-    "nodegit": "^0.18.3",
     "shelljs": "^0.7.7",
     "yargs": "^7.1.0"
   }
