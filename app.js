@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var fs = require("fs");
+var path = require('path');
 var util = require('util');
 var shell = require('shelljs');
 var argv = require('yargs').argv;
@@ -18,7 +19,7 @@ if (!shell.which('git')) {
 switch (method) {
     case 'start':
         if (shell.exec(util.format("git clone %s %s", origin, local)).code === 0) {
-            file.replace([__dirname, local].join('\\'), /(seed|angular seed|angular-seed)/ig, local);
+            file.replace(path.join(path.resolve('.'), local), /(seed|angular seed|angular-seed)/ig, local);
             shell.cd(local);
             shell.exec('npm install');
             shell.exec('bower install');

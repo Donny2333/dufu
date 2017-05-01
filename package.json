@@ -1,6 +1,7 @@
 {
   "name": "dufu",
-  "version": "1.0.3",
+  "version": "1.0.6",
+  "Keywords": ["dufu", "dufu framework", "GIS", "angular"],
   "description": "A tool for creating and developing GIS web apps.",
   "bin": {
     "dufu": "app.js"
